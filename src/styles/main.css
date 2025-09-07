@@ -1,0 +1,108 @@
+/* main.css - global styles and variables */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+:root {
+  --header-height: 5rem;
+  --primary-color: #0f172a;
+  --secondary-color: #f59e0b;
+  --accent-gradient-vibrant: linear-gradient(135deg, #f59e0b 0%, #f97316 50%, #ef4444 100%);
+  --accent-gradient-cool: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);
+img {
+  --accent-gradient-luxury: linear-gradient(135deg, #fbbf24 0%, #f59e0b 50%, #d97706 100%);
+  --dark-gradient: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  --dark-gradient-enhanced: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+  --light-gradient: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  --light-gradient-warm: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --light-color: #f8fafc;
+  --dark-color: #0f172a;
+  --white-color: #ffffff;
+  --gray-color: #cbd5e1;
+  --dark-gray: #64748b;
+  --success-color: #10b981;
+  --warning-color: #f59e0b;
+  --error-color: #ef4444;
+  --neon-blue: #00d4ff;
+  --neon-purple: #a855f7;
+  --neon-pink: #ec4899;
+  --neon-green: #10b981;
+  --neon-orange: #f97316;
+  --neon-yellow: #fbbf24;
+  --body-font: 'Inter', sans-serif;
+  --heading-font: 'Playfair Display', serif;
+  --big-font-size: 1.5rem;
+  --bigger-font-size: 2rem;
+  --biggest-font-size: 3.5rem;
+  --h2-font-size: 1.75rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+  --m1: 0.5rem;
+  --m2: 1rem;
+  --m3: 1.5rem;
+  --m4: 2rem;
+  --m5: 2.5rem;
+  --m6: 3rem;
+  --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.1);
+  --shadow-md: 0 8px 32px rgba(15, 23, 42, 0.15);
+  --shadow-lg: 0 20px 60px rgba(15, 23, 42, 0.2);
+  --shadow-xl: 0 25px 80px rgba(15, 23, 42, 0.25);
+  --glow: 0 0 20px rgba(245, 158, 11, 0.3);
+  --glow-blue: 0 0 20px rgba(0, 212, 255, 0.4);
+  --glow-purple: 0 0 20px rgba(168, 85, 247, 0.4);
+  --glow-pink: 0 0 20px rgba(236, 72, 153, 0.4);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: var(--dark-color);
+  background: var(--light-gradient);
+  line-height: 1.7;
+  overflow-x: hidden;
+  font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--m2);
+  letter-spacing: -0.02em;
+}
+p {
+  margin-bottom: var(--m2);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+  list-style: none;
+ul {
+  list-style: none;
+}
+section {
+  padding: 8rem 0;
+  position: relative;
+}
+.bd-grid {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+}

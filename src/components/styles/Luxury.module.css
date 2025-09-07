@@ -1,0 +1,14 @@
+/* Luxury.module.css */
+.luxury {
+  background: #ffffff;
+  position: relative;
+}
+.luxury-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2.5rem;
+}
+.vehicle-luxury {
+  border: 2px solid rgba(245, 158, 11, 0.2);
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+}
